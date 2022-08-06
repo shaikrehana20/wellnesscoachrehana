@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    /* height: 20vh; */
+}
+
+#content {
+    width: 100%;
+    padding: 50px;
+    background-color: tan;
+    padding-top: 20%;
+}
+
+#content p {
+    padding: inherit;
+    font-size: medium;
+    margin: auto;
+    text-align: center;
+    padding-top: 30%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+
+#second {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.image-slide {
+    border-radius: 10px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    background-color: black;
+    margin-top: 80px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul a {
+    text-decoration: none;
+    padding: 10px;
+    color: aqua;
+}
+
+#contain2 {
+    color: #a39c9c;
+    font-family: sans-serif;
+    padding: 20px;
+    margin-right: 60px;
+    margin: 8px;
+}
+
+#add-template {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+#icons {
+    margin: auto;
+    display: table;
+}
+
+#icons i {
+    font-size: x-large;
+    padding: 10px;
+    color: aqua;
+}
+
+#text a {
+    color: aliceblue;
+    padding: 10px;
+}
+
+#footer_main {
+    padding-top: 22%;
+    /* background: aquamarine; */
+    border-radius: 0px 165px;
+    margin: 5px;
+}
+
+#about {
+    background-image: linear-gradient(2deg, black, green, transparent);
+    padding: 20px;
+    border-radius: 0px 96px;
+    margin: 10px;
+    font-family: monospace;
+    font-size: x-large;
+    color: rgb(220, 216, 216);
+}
+
+form {
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+form div {
+    padding-top: 8px;
+}
+
+#text p {
+    color: gray;
+}
+
+#contact {
+    box-shadow: 1px 5px 24px 2px rgb(167 162 162);
+    background-color: rgb(109, 110, 110);
+    border-radius: 42% 54%;
+    color: aliceblue;
+    margin-top: 20px;
+    padding: 18px;
+    width: 360px;
+    margin: auto;
+}
+
+#right {
+    display: block;
+    background-color: #bf2828;
+    font-family: monospace;
+    padding: 5px;
+    border-radius: 22px;
+    width: 537px;
+    text-align: center;
+    color: floralwhite;
+    margin-right: 43%;
+    font-size: x-large;
+}
+
+#rap-box {
+    padding: 20px;
+    background-image: linear-gradient(35deg, black, transparent)
+}
+
+#images-cont {
+    background-image: url('https://m.media-amazon.com/images/S/aplus-media-library-service-media/05c7cb45-feff-43ca-b98b-dc586e8966ac.__CR58,0,1164,720_PT0_SX970_V1___.jpg');
+    padding: 10px;
+    opacity: 0.6;
+}
+
+#nav-hide {
+    display: none;
+}
+
+#center p {
+    font-size: x-large;
+    margin: 15px;
+}
+
+#flex {
+    background-color: #bf2828;
+    width: 400px;
+    padding: 15px;
+    border-radius: 20px;
+    opacity: 4.7;
+}
+
+#content p span {
+    display: block;
+    margin: initial;
+    color: black;
+    font-weight: 900;
+    font-size: 33px;
+}
+
+@media screen and (max-width: 680px) {
+    #content {
+        width: 100%;
+        padding: 10px;
+        background-color: tan;
+    }
+
+    #content {
+        padding: inherit;
+        font-size: medium;
+        margin: auto;
+        text-align: center;
+        padding-top: 30%;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: xx-small;
+    }
+
+    #second {
+        display: table;
+        margin: auto;
+    }
+
+    #add-template img {
+        width: 100%;
+    }
+
+    #about {
+        border-radius: 0px 40px;
+        font-size: medium;
+        background-image: linear-gradient(107deg, black, green, transparent);
+    }
+
+    footer {
+        display: table;
+        width: 100%;
+        padding: 10px;
+    }
+
+    #right {
+        display: none;
+    }
+
+    #flex {
+        background-color: #bf2828;
+        width: 280px;
+        padding: 15px;
+        border-radius: 20px;
+        opacity: .7;
+        margin: 10px;
+        box-shadow: 1px 5px 24px 2px rgb(239 96 96);
+    }
+
+    #add-template {
+        width: 370px;
+        height: 300px;
+        display: block;
+        margin: auto;
+    }
+
+    #content p span {
+        display: block;
+        margin: initial;
+        color: black;
+        /* font-weight: inherit; */
+        /* font-size: inherit; */
+        font-size: 24.9px;
+    }
+
+    #rap-box {
+        padding: 20px;
+        background-image: linear-gradient(55deg, black, transparent)
+    }
+
+}
